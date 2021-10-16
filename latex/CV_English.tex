@@ -1,0 +1,77 @@
+\documentclass[11pt,a4paper,roman]{moderncv}
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+
+\usepackage[a4paper,top=2cm,bottom=2cm,outer=2cm,inner=2cm,verbose,heightrounded]{geometry}
+\renewcommand{\link}[1]{{\texttt{\color{color1}\href{#1}{#1}}}}
+
+\firstname{Federico}
+\familyname{Dossena}
+
+\title{Curriculum Vitæ}
+\phone{(+39) 371 36 32 631}
+\email{info@fdossena.com}
+\homepage{fdossena.com}{https://fdossena.com}
+\photo[70pt][0.3pt]{photo}
+
+\begin{document}
+\makecvtitle
+
+\section{Education}
+\cventry{2018--2021}{Master's Degree in Computer Science}{Università degli Studi di Milano}{}{}{\textit{110 cum laude / 110}}
+\cventry{2010--2016}{Bachelor's Degree in Computer Science}{Università degli Studi di Milano}{}{}{\textit{110 cum laude / 110}}
+\cventry{2005--2010}{Diploma in Computer Science}{I.T.I.S. Galileo Galilei}{Crema, Italy}{}{\textit{95 / 100}}
+
+\section{Skills and Technologies}
+\cvitem{Advanced}{Java, JavaScript, HTML, CSS, Git, LibreOffice, GNU/Linux, Microsoft Windows}
+\cvitem{Intermediate}{PHP, Apache, MySQL, Android, Docker, Bash, Arduino, C, \LaTeX, Markdown}
+\cvitem{Basic}{C++, Node.js, x86 Assembly, Reverse engineering (Ghidra, IDA Pro), Analog and Digital Electronics}
+
+\section{Work experience}
+\cventry{2013--2018}{Various roles}{MBstore distribuzione informatica}{Crema, Italy}{}{
+    \begin{itemize}
+    \item Computer technician:\begin{itemize}
+        \item Building, repairing and selling PCs
+        \item Tech support for individuals and businesses
+    \end{itemize}
+    \item Developer:\begin{itemize}
+        \item Development of websites and web applications
+        \item Development of tools for internal use
+    \end{itemize}
+    \end{itemize}
+}
+\cventry{2017--present}{Freelance developer}{}{}{}{Development of websites and applications}
+\cventry{Occasionally}{Private lessons}{}{}{}{Private lessons in Computer Science related topics for high school and occasionally university students: programming, operating systems, databases, etc.}
+
+\section{Projects}
+Exhaustive list available at \link{https://fdossena.com}.
+\newline{}
+
+\cventry{2016--Present}{Author, Developer}{LibreSpeed}{\link{https://librespeed.org}}{}{The most popular Open Source Speed Test on the planet}
+\cventry{2019--Present}{Author, Developer}{OpenPods}{\link{https://github.com/adolfintel/openpods}}{}{Open Source application for monitoring Apple AirPods on Android devices}
+\cventry{2014--Present}{Author, Maintainer}{WineD3D For Windows}{\link{https://wined3d.fdossena.com}}{}{WineD3D builds for Microsoft Windows, an useful tool for the digital preservation of videogames}
+\cventry{2021--Present}{Author, Developer}{OpenLDAT}{\link{https://openldat.fdossena.com}}{}{An Open Source tool to measure latency metrics of LCD displays}
+\cventry{2015--Present}{Author, Developer, Blogger}{fdossena.com}{\link{https://fdossena.com}}{}{Ultra lightweight CMS for portfolio websites and blogs written in PHP}
+\cventry{2014--2020}{Author, Developer}{SINE Isochronic Entrainer}{\link{https://sine.fdossena.com}}{}{An Open Source synthesizer that produces isochronic tones for meditation (currently discontinued)}
+
+\section{Public speaking}
+\cventry{2019}{Speaker}{ITNOG 5}{\link{https://fdossena.com/?p=itnog5/i.md}}{}{Presentation about the LibreSpeed project (in Italian)}
+\cventry{2019}{Speaker}{Workshop GARR 2019}{\link{https://fdossena.com/?p=wsgarr2019/i.md}}{}{Presentation about the LibreSpeed project and the collaboration with Consortium GARR (in Italian)}
+\cventry{2020--Present}{Speaker}{Associazione HackLab Cormano}{\link{https://hacklabcormano.it}}{}{Presentations on various topics related to Computer Science and Electronics (in Italian)}
+
+\section{Published works}
+\cventry{2021}{OpenLDAT - A System for the Measurement of Display Latency Metrics}{Federico Dossena, Andrea Trentini}{Society for Information Display (SID)}{}{}
+
+\section{Languages}
+\cvitemwithcomment{Italian}{Mothertongue}{}
+\cvitemwithcomment{English}{Advanced}{Conversationally fluent}
+
+\section{Other interests}
+\renewcommand{\listitemsymbol}{-~}
+\cvlistitem{Free and Open Source Software}
+\cvlistitem{Digital Preservation}
+\cvlistitem{Videogames}
+\cvlistitem{Electronic music}
+\cvlistitem{3D printing}
+
+\end{document}

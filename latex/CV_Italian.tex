@@ -1,0 +1,81 @@
+\documentclass[11pt,a4paper,roman]{moderncv}
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+
+\usepackage[a4paper,top=2cm,bottom=2cm,outer=2cm,inner=2cm,verbose,heightrounded]{geometry}
+\renewcommand{\link}[1]{{\texttt{\color{color1}\href{#1}{#1}}}}
+
+\firstname{Federico}
+\familyname{Dossena}
+
+\title{Curriculum Vitæ}
+\phone{(+39) 371 36 32 631}
+\email{info@fdossena.com}
+\homepage{fdossena.com}{https://fdossena.com}
+\photo[70pt][0.3pt]{photo}
+
+\begin{document}
+\makecvtitle
+
+\section{Studi}
+\cventry{2018--2021}{Dottore Magistrale in Informatica}{Università degli Studi di Milano}{}{}{\textit{110 e lode / 110}}
+\cventry{2010--2016}{Dottore in Informatica}{Università degli Studi di Milano}{}{}{\textit{110 e lode / 110}}
+\cventry{2005--2010}{Diploma di Perito Informatico}{I.T.I.S. Galileo Galilei}{Crema}{}{\textit{95 / 100}}
+
+\section{Tecnologie e capacità tecniche}
+\cvitem{Avanzato}{Java, JavaScript, HTML, CSS, Git, LibreOffice, GNU/Linux, Microsoft Windows}
+\cvitem{Intermedio}{PHP, Apache, MySQL, Android, Docker, Bash, Arduino, C, \LaTeX, Markdown}
+\cvitem{Base}{C++, Node.js, x86 Assembly, Reverse engineering (Ghidra, IDA Pro), Elettronica digitale e analogica}
+
+\section{Esperienza professionale}
+\cventry{2013--2018}{Vari ruoli}{MBstore distribuzione informatica}{Crema}{}{
+    \begin{itemize}
+    \item Tecnico informatico:\begin{itemize}
+        \item Assemblaggio, riparazione e vendita di PC
+        \item Assistenza presso privati e aziende
+    \end{itemize}
+    \item Sviluppatore:\begin{itemize}
+        \item Sviluppo di siti e applicazioni web
+        \item Sviluppo di strumenti software per uso interno
+    \end{itemize}
+    \end{itemize}
+}
+\cventry{2017--Presente}{Sviluppatore freelance}{}{}{}{Sviluppo di siti web e applicazioni}
+\cventry{Occasional-\\mente}{Ripetizioni private}{}{}{}{Ripetizioni per studenti di scuole medie superiori e occasionalmente universitari in materie informatiche in generale: programmazione, sistemi operativi, basi di dati, ecc.}
+
+\section{Progetti}
+Elenco completo disponibile su \link{https://fdossena.com} (in Inglese).
+\newline{}
+
+\cventry{2016--Presente}{Autore, Sviluppatore}{LibreSpeed}{\link{https://librespeed.org}}{}{Lo Speed Test Open Source più utilizzato al mondo}
+\cventry{2019--Presente}{Autore, Sviluppatore}{OpenPods}{\link{https://github.com/adolfintel/openpods}}{}{Applicazione Open Source per il monitoraggio delle Apple AirPods su dispositivi Android}
+\cventry{2014--Presente}{Autore, Maintainer}{WineD3D For Windows}{\link{https://wined3d.fdossena.com}}{}{Build di WineD3D per Microsoft Windows, uno strumento utile per la preservazione digitale di videogiochi}
+\cventry{2021--Presente}{Autore, Sviluppatore}{OpenLDAT}{\link{https://openldat.fdossena.com}}{}{Strumento libero per la misurazione di metriche di latenza dei display LCD}
+\cventry{2015--Presente}{Autore, Sviluppatore, Blogger}{fdossena.com}{\link{https://fdossena.com}}{}{CMS ultraleggero in PHP per siti portfolio e blog}
+\cventry{2014--2020}{Autore, Sviluppatore}{SINE Isochronic Entrainer}{\link{https://sine.fdossena.com}}{}{Sintetizzatore Open Source di toni isocronici per meditazione (sviluppo cessato)}
+
+\section{Public speaking}
+\cventry{2019}{Speaker}{ITNOG 5}{\link{https://fdossena.com/?p=itnog5/i.md}}{}{Presentazione sul progetto LibreSpeed}
+\cventry{2019}{Speaker}{Workshop GARR 2019}{\link{https://fdossena.com/?p=wsgarr2019/i.md}}{}{Presentazione sul progetto LibreSpeed e la relativa collaborazione con GARR}
+\cventry{2020--Presente}{Speaker}{Associazione HackLab Cormano}{\link{https://hacklabcormano.it}}{}{Presentazioni su vari argomenti inerenti al mondo informatico e elettronico}
+
+\section{Pubblicazioni}
+\cventry{2021}{OpenLDAT - A System for the Measurement of Display Latency Metrics}{Federico Dossena, Andrea Trentini}{Society for Information Display (SID)}{}{}
+
+\section{Lingue parlate}
+\cvitemwithcomment{Italiano}{Madrelingua}{}
+\cvitemwithcomment{Inglese}{Avanzato}{Fluente}
+
+\section{Altri interessi}
+\renewcommand{\listitemsymbol}{-~}
+\cvlistitem{Software libero e Open Source}
+\cvlistitem{Preservazione digitale}
+\cvlistitem{Videogiochi}
+\cvlistitem{Musica elettronica}
+\cvlistitem{Stampa 3D}
+
+\vspace*{\fill}
+\rule[1ex]{\textwidth}{0.5pt}
+Autorizzo il trattamento dei dati personali contenuti nel presente curriculum vitæ in base all'art. 13 del D.Lgs. 196/2003 e all'art. 13 GDPR 679/16.
+
+\end{document}
