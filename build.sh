@@ -1,5 +1,5 @@
-#!/bin/bash
-#Based on the build script from my master's thesis at https://github.com/adolfintel/Tesi2/build.sh
+#!/usr/bin/env bash
+#Based on the build script from my master thesis at https://github.com/adolfintel/Tesi2/build.sh
 SECONDS=0
 export LC_ALL=en_US.UTF-8
 export TEXMFCNF='.:'
